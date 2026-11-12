@@ -17,6 +17,21 @@
     h1 {
       color: #1f7a4d;
     }
+    .app-logo {
+      display: block;
+      width: 76px;
+      height: 76px;
+      border-radius: 18px;
+      object-fit: cover;
+    }
+    .brand-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .brand-header h1 {
+      margin: 0;
+    }
     .card {
       background: #f7f7f7;
       padding: 20px;
@@ -26,11 +41,20 @@
   </style>
 </head>
 <body>
-  <h1>语行词典 技术支持</h1>
+  <header class="brand-header">
+    <img class="app-logo" src="assets/app-logo.png" alt="语行词典 Logo" />
+    <h1>语行词典</h1>
+  </header>
 
   <p>
     语行词典 是一款葡萄牙语词典与学习工具，支持葡中双向查询、动词查询、单词发音、多词库管理、生词练习和长文翻译。
   </p>
+
+  <div class="card">
+    <h2>下载</h2>
+    <p>语行词典提供 iOS 与 Android 版本。小程序订阅用户使用微信登录后，即可自动同步相关功能。</p>
+    <p>欢迎<a href="download.html">下载使用</a>，也欢迎与我交流使用体验、意见和建议。</p>
+  </div>
 
   <div class="card">
     <h2>联系我们</h2>
